@@ -1,0 +1,97 @@
+/*======================================================================================
+Below code is for header
+======================================================================================*/
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'Ubuntu', sans-serif;
+   text-align: center;
+   text-decoration: none;
+}
+
+header{
+   margin: 0 auto;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin-bottom: 30px;
+   background: #AEBD38;
+}
+
+h1{
+   background-color: #AEBD38;
+}
+
+menu ul{
+   background-color: #AEBD38;
+}
+
+menu ul li{
+   display: inline-block;
+   padding: 10px;
+   background: #68829E;
+   border-radius: 10px;
+}
+
+menu ul li a{
+   color: white;
+}
+/*======================================================================================
+Above code is for header
+======================================================================================*/
+
+/*======================================================================================
+Below code is for container
+======================================================================================*/
+.container{
+   margin: 0 auto;
+   width: 90%;
+   padding-left: 5%;
+   padding-right: 5%;
+}
+
+.container input , select{
+   display: block;
+   margin: 0 auto;
+   margin-top: 20px;
+   padding: 20px;
+   width: 500px;
+   text-align: left;
+   border: 2px solid black;
+   border-radius: 5px;
+}
+
+.container input[type="submit"]{
+   text-align: center;
+   background: black;
+   color: white;
+}
+
+.container input:hover , .container select:hover{
+   border: 2px solid #AEBD38;
+}
+
+
+.container table{
+   margin: 0 auto;
+   margin-top: 15px;
+   text-align: left;
+   border: 2px solid black;
+   border-radius: 5px;
+}
+.container table td{
+   padding: 10px;
+   border-top: 1px solid grey;
+}
+
+.selection-button{
+   margin-top: 10px;
+   background: black;
+   border: none;
+   border-radius: 5px;
+   color:  #AEBD38;
+   padding: 15px;
+}
+
+/*======================================================================================
+Above code is for header
+======================================================================================*/
